@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2 задание измененние цвета элемента</title>
+</head>
+<style>
+    p{
+        font-size: 30px;
+    }
+    div{
+        text-align: center;
+        border:1 px solid black ;
+    }
+    button{
+        width: 100px;
+        height: 50px;
+        border: 1px solid black;
+    }
+</style>
+<body>
+    <div>
+        <p id="p2">
+            здесь может быть ваша реклама
+        </p>
+        <button style="background-color: red ;" onclick="red()"> красный</button>
+        <button style="background-color: greenyellow ;" onclick="greenyellow()"> желтый</button>
+        <button style="background-color: blue ;" onclick="blue()"> синий</button>
+        <button style="background-color: white ;" onclick="white()"> очистка</button>
+        <button style="background-color: black ;" onclick="black()"> черный </button>
+    </div>
+    <Script>
+        function red()
+        {
+            document.getElementById('p2').style.color="red";
+        }
+        function greenyellow()
+        {
+            document.getElementById('p2').style.color="greenyellow";
+        }
+        function blue()
+        {
+            document.getElementById('p2').style.color="blue";
+        }
+        function white()
+        {
+            document.getElementById('p2').style.color="white";
+        }
+        function black()
+        {
+            document.getElementById('p2').style.color="black";
+        }
+    </Script>
+    
+</body>
+</html>
